@@ -1,0 +1,1 @@
+using TechTalk.SpecFlow; [Binding] public class Hooks{}
