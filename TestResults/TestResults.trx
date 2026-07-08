@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="09be4010-dcec-427e-8cae-551ec8edee17" name="monte@LAPTOP-LRS9T6D3 2026-07-08 00:56:40" runUser="LAPTOP-LRS9T6D3\monte" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-07-08T00:56:40.1845391-03:00" queuing="2026-07-08T00:56:40.1845394-03:00" start="2026-07-08T00:56:05.8539467-03:00" finish="2026-07-08T00:56:40.1966579-03:00" />
+  <TestSettings name="default" id="70dd7ea7-d9c4-4159-ba2a-20efce326fe5">
+    <Deployment runDeploymentRoot="monte_LAPTOP-LRS9T6D3_2026-07-08_00_56_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="aa9d5b6d-0ac3-46d1-97f2-1df29ff49ba2" testId="6d4f9cd8-e87e-f14e-18be-00a21d6e1e68" testName="SearchForAValidCEP" computerName="LAPTOP-LRS9T6D3" duration="00:00:33.3816340" startTime="2026-07-08T00:56:06.6876964-03:00" endTime="2026-07-08T00:56:40.0692928-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa9d5b6d-0ac3-46d1-97f2-1df29ff49ba2">
+      <Output>
+        <StdOut>Given I access the CEP search service&#xD;
+-&gt; done: BuscaCepSteps.GivenIAccessTheCepSearchService() (1,0s)&#xD;
+When I enter the CEP "01001000"&#xD;
+-&gt; done: BuscaCepSteps.WhenIEnterTheCep("01001000") (0,1s)&#xD;
+Then the address should be returned successfully&#xD;
+[Etapa manual] Complete a interação no navegador. Pressione Enter para continuar ou aguarde 30 segundo(s) para seguir automaticamente.&#xD;
+[Etapa manual] Tempo de espera encerrado. Continuando automaticamente.&#xD;
+-&gt; error: A busca ficou bloqueada por captcha após a etapa manual. (30,1s)&#xD;
+&#xD;
+A busca ficou bloqueada por captcha após a etapa manual.</StdOut>
+        <ErrorInfo>
+          <Message>A busca ficou bloqueada por captcha após a etapa manual.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SearchForAValidCEP" storage="c:\correiosautomation\bin\debug\net8.0\correiosautomation.dll" id="6d4f9cd8-e87e-f14e-18be-00a21d6e1e68">
+      <Execution id="aa9d5b6d-0ac3-46d1-97f2-1df29ff49ba2" />
+      <TestMethod codeBase="C:\CORREIOSAUTOMATION\bin\Debug\net8.0\CorreiosAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="CorreiosAutomation.Features.SearchCEPFeature" name="SearchForAValidCEP" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6d4f9cd8-e87e-f14e-18be-00a21d6e1e68" executionId="aa9d5b6d-0ac3-46d1-97f2-1df29ff49ba2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in C:\CORREIOSAUTOMATION\bin\Debug\net8.0\CorreiosAutomation.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Given I access the CEP search service&#xD;
+-&gt; done: BuscaCepSteps.GivenIAccessTheCepSearchService() (1,0s)&#xD;
+When I enter the CEP "01001000"&#xD;
+-&gt; done: BuscaCepSteps.WhenIEnterTheCep("01001000") (0,1s)&#xD;
+Then the address should be returned successfully&#xD;
+[Etapa manual] Complete a interação no navegador. Pressione Enter para continuar ou aguarde 30 segundo(s) para seguir automaticamente.&#xD;
+[Etapa manual] Tempo de espera encerrado. Continuando automaticamente.&#xD;
+-&gt; error: A busca ficou bloqueada por captcha após a etapa manual. (30,1s)&#xD;
+&#xD;
+SearchForAValidCEP: A busca ficou bloqueada por captcha após a etapa manual.&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
